@@ -18,3 +18,11 @@ $ mysql -h127.0.0.1 -uroot -proot
 ```
 $ docker exec -ti stack_redis_1 redis-cli
 ```
+
+## RabbitMQ client
+
+```
+http://localhost:15672
+```
+
+Credentials: guest / guest

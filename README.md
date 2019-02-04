@@ -12,3 +12,9 @@ $ docker-compose -f stack.yml stop
 ```
 $ mysql -h127.0.0.1 -uroot -proot
 ```
+
+## Redis client
+
+```
+$ docker exec -ti stack_redis_1 redis-cli
+```

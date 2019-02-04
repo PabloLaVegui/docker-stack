@@ -16,7 +16,7 @@ $ mysql -h127.0.0.1 -uroot -proot
 ## Redis client
 
 ```
-$ docker exec -ti stack_redis_1 redis-cli
+$ docker exec -ti redis redis-cli
 ```
 
 ## RabbitMQ client
@@ -25,4 +25,9 @@ $ docker exec -ti stack_redis_1 redis-cli
 http://localhost:15672
 ```
 
+## Elasticsearch + kibana
+
+```
+http://localhost:5601
+```
 Credentials: guest / guest
